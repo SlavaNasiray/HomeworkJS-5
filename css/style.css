@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: black;
+    color: coral;
+}
+
+h1 {
+    font-family: 'Lily Script One', cursive;;
+    font-size: 45px;
+    color: indigo;
+    padding: 5px;
+    border: 2px solid wheat;
+    box-shadow: 3px 3px 3px red;
+}
+
+.controls {
+    display: flex;
+    flex-direction: row;
+    width: 50em;
+}
+
+button {
+    font-family: 'Oleo Script', cursive;
+    font-size: 20px;
+    margin: 0 auto;
+    flex-basis: 100px;
+    color: rgba(91, 70, 1, 1);
+    background-color: rgba(15, 11, 81, 1);
+    box-shadow: 2px 2px 2px 2px grey;
+}
+
+button:hover {
+    background-color: hotpink;
+    opacity: 1;
+}
+
+.controls .hide {
+    display: none;
+}
+
+.stopwatch {
+    font-size: 15em;
+    font-family: monospace;
+}
+
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+ol li {
+    color: greenyellow;
+}
